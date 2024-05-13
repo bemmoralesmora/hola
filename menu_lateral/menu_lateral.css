@@ -1,0 +1,33 @@
+.menu_lateral {
+    grid-column:1/2 ;
+    grid-row: 2/4;
+
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.menu_lateral a {
+    width: 200px;
+    height: 60px;
+    background-color:rgb(121, 5, 230);
+    border-radius: 25px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover{
+    color: rgb(39, 2, 73);
+    border-bottom: 1px solid black;
+    transition: 0,5s;
+}

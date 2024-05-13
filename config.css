@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Escritorio*/
+@media only screen and (max-width:1920px){
+
+    html{
+        max-width: 1920px;
+    }
+}
+
+/*laptop1*/
+@media only screen and (max-width:1366px){
+
+    html{
+        max-width: 1366px;
+    }
+}
+
+/*laptop2*/
+@media only screen and (max-width:1024px){
+
+    html{
+        max-width: 1024px;
+    }
+}
+
+/*tableta*/
+@media only screen and (max-width:820px){
+
+    html{
+        max-width: 820px;
+    }
+}
+
+/*telefono1*/
+@media only screen and (max-width:720px){
+
+    html{
+        max-width: 720px;
+    }
+}
+
+/*telefono2*/
+@media only screen and (max-width:480px){
+
+    html{
+        max-width: 480px;
+    }
+}
+
+/*telefono3*/
+@media only screen and (max-width:360px){
+
+    html{
+        max-width: 360px;
+    }
+}
